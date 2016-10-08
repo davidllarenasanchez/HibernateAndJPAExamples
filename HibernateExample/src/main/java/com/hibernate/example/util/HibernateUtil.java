@@ -69,8 +69,8 @@ public class HibernateUtil {
 		Properties props = new Properties();
 		props.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
 		props.put("hibernate.connection.url", "jdbc:mysql://localhost/ContactManager");
-		props.put("hibernate.connection.username", "root");
-		props.put("hibernate.connection.password", "admin");
+		props.put("hibernate.connection.username", "user");
+		props.put("hibernate.connection.password", "pwd");
 		props.put("hibernate.current_session_context_class", "thread");
 		
 		configuration.setProperties(props);
